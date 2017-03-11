@@ -3,6 +3,8 @@ aws-lambda-image.zip
 build/
 npm-debug.log
 *.sw?
+*.zip
+.DS_Store
 .idea/
 coverage
 .nyc_output
