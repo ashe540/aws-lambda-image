@@ -2,25 +2,13 @@
   "bucket": "articfive-parties",
   "resizes": [
     {
-      "size": 300,
-      "directory": "./small",
-      "acl": "public-read"
-    },
-    {
-      "size": "x342",
+      "size": "x342!",
       "directory": "./cover",
       "acl": "public-read"
     },
     {
-      "size": "600x400",
+      "size": "600x400!",
       "directory": "./thumbnail",
-      "acl": "public-read"
-    },
-    {
-      "size": 900,
-      "directory": "./",
-      "suffix": "_900",
-      "quality": 90,
       "acl": "public-read"
     }
   ]
