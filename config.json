@@ -2,7 +2,10 @@
   "bucket": "articfive-parties",
   "resizes": [
     {
-      "size": "x342!",
+      "size": "1360x",
+      "quality": 90,
+      "crop": "1360x342",
+      "gravity": "Center",
       "directory": "./cover",
       "acl": "public-read"
     },
