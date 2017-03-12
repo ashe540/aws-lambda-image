@@ -1,18 +1,35 @@
 {
-  "bucket": "articfive-parties",
-  "resizes": [
-    {
-      "size": "1360x",
-      "quality": 90,
-      "crop": "1360x342",
-      "gravity": "Center",
-      "directory": "./cover",
-      "acl": "public-read"
-    },
-    {
-      "size": "600x400!",
-      "directory": "./thumbnail",
-      "acl": "public-read"
-    }
-  ]
+  "resizes": {
+    "articfive-covers": [
+      {
+        "size": "1360x",
+        "quality": 100,
+        "crop": "1360x342",
+        "gravity": "Center",
+        "directory": "./cover",
+        "acl": "public-read"
+      }
+    ],
+    "articfive-users": [
+      {
+        "size": "200x200",
+        "acl": "public-read"
+      }
+    ],
+    "articfive-parties": [
+      {
+        "size": "1360x",
+        "quality": 90,
+        "crop": "1360x342",
+        "gravity": "Center",
+        "directory": "./cover",
+        "acl": "public-read"
+      },
+      {
+        "size": "600x400!",
+        "directory": "./thumbnail",
+        "acl": "public-read"
+      }
+    ]
+  }
 }
